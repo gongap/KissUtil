@@ -4,7 +4,6 @@
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>KissUtil</RootNamespace>
         <Description>KissUtil基础类库</Description>
         <EnableDynamicLoading>true</EnableDynamicLoading>
         <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
