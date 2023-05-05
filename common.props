@@ -6,7 +6,6 @@
 		<NoWarn>$(NoWarn);CS1591</NoWarn>
 		<LangVersion>latest</LangVersion>
         <RepositoryUrl>https://github.com/gongap/KissUtil</RepositoryUrl>
-        <PackageIcon>icon.jpg</PackageIcon>
         <PackageTags>utils;tools;helpers;dotnetcore;aspnetcore;</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
