@@ -27,7 +27,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{EB006D23-BFE
 		doc\Index.md = doc\Index.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KissUtil.Core", "src\KissUtil.Core\KissUtil.Core.csproj", "{BF89B8E5-5392-40CE-BCCB-82586AA82D6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KissUtil", "src\KissUtil\KissUtil.csproj", "{7F372D64-6E40-4882-A34F-7DC325EC6A1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,16 +35,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BF89B8E5-5392-40CE-BCCB-82586AA82D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF89B8E5-5392-40CE-BCCB-82586AA82D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF89B8E5-5392-40CE-BCCB-82586AA82D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF89B8E5-5392-40CE-BCCB-82586AA82D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F372D64-6E40-4882-A34F-7DC325EC6A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F372D64-6E40-4882-A34F-7DC325EC6A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F372D64-6E40-4882-A34F-7DC325EC6A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F372D64-6E40-4882-A34F-7DC325EC6A1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BF89B8E5-5392-40CE-BCCB-82586AA82D6E} = {19F68F40-2A05-48EB-86F0-56928B3CCE9C}
+		{7F372D64-6E40-4882-A34F-7DC325EC6A1C} = {19F68F40-2A05-48EB-86F0-56928B3CCE9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {220123E7-A888-4DE7-8F9A-8FE271543889}

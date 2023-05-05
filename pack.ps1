@@ -13,7 +13,7 @@ Write-Host ("PackFolder: " + $packFolder)
 
 # List of projects
 $projects = (
-    "src/KissUtil.Core"
+    "src/KissUtil"
 )
 
 # Remove item
