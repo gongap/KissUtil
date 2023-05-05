@@ -5,7 +5,7 @@ namespace KissUtil.Extensions
     /// <summary>
     /// 类型转换扩展
     /// </summary>
-    public static class ConvertExtensions
+    public static partial class Extensions
     {
         /// <summary>
         /// 安全转换为字符串，去除两端空格，当值为null时返回""

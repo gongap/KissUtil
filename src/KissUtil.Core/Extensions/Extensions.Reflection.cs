@@ -5,7 +5,7 @@ namespace KissUtil.Extensions
     /// <summary>
     /// 反射扩展
     /// </summary>
-    public  static partial class ReflectionExtensions
+    public static partial class Extensions
     {
         /// <summary>
         /// 获取实例上的属性值

@@ -5,7 +5,7 @@ namespace KissUtil.Extensions
     /// <summary>
     /// 公共扩展
     /// </summary>
-    public static class CommonExtensions
+    public static partial class Extensions
     {
         /// <summary>
         /// 安全获取值，当值为null时，不会抛出异常
