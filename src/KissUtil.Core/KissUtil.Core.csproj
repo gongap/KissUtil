@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="../../common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>KissUtil</RootNamespace>
+        <Description>KissUtil.Core是KissUtil基础类库</Description>
+        <EnableDynamicLoading>true</EnableDynamicLoading>
+        <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	    <VersionMajor>1</VersionMajor>
+	    <VersionMinor>0</VersionMinor>
+	    <VersionPatch>0</VersionPatch>
+	    <VersionPrefix>$(VersionMajor).$(VersionMinor).$(VersionPatch)</VersionPrefix>
+	    <!--<VersionSuffix>-preview1</VersionSuffix>-->
+	    <Version>$(VersionPrefix)$(VersionSuffix)</Version>
+    </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>..\..\output\release\</OutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Folder Include="Properties\" />
+	</ItemGroup>
+
+</Project>
